@@ -1,0 +1,139 @@
+object FormMain: TFormMain
+  Left = 596
+  Height = 240
+  Top = 465
+  Width = 320
+  Caption = 'FnstDimensionatore'
+  ClientHeight = 240
+  ClientWidth = 320
+  FormStyle = fsSystemStayOnTop
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnResize = FormResize
+  PopupMenu = PopupMenu1
+  Position = poScreenCenter
+  LCLVersion = '2.0.8.0'
+  object Shape: TShape
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 320
+    Align = alClient
+    Pen.EndCap = pecFlat
+    Pen.JoinStyle = pjsMiter
+  end
+  object LabelSize: TLabel
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 320
+    Align = alClient
+    Alignment = taCenter
+    AutoSize = False
+    Layout = tlCenter
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+    WordWrap = True
+    OnMouseDown = LabelSizeMouseDown
+  end
+  object PopupMenu1: TPopupMenu
+    left = 176
+    top = 101
+    object MenuShowSize: TMenuItem
+      Caption = 'Show size'
+      ShortCut = 16397
+      OnClick = MenuShowSizeClick
+    end
+    object N3: TMenuItem
+      Caption = '-'
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Opacity'
+      object MenuOpacity100: TMenuItem
+        Caption = '100%'
+        Checked = True
+        ShortCut = 16433
+        OnClick = MenuOpacity100Click
+      end
+      object MenuOpacity80: TMenuItem
+        Caption = '80%'
+        ShortCut = 16434
+        OnClick = MenuOpacity80Click
+      end
+      object MenuOpacity50: TMenuItem
+        Caption = '50%'
+        ShortCut = 16435
+        OnClick = MenuOpacity50Click
+      end
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Color'
+      object MenuColorBorder: TMenuItem
+        Caption = 'Border'
+        ShortCut = 8241
+        OnClick = MenuColorBorderClick
+      end
+      object MEnuColorBackground: TMenuItem
+        Caption = 'Background'
+        ShortCut = 8242
+        OnClick = MEnuColorBackgroundClick
+      end
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Border'
+      object MenuIncreaseBorder: TMenuItem
+        Caption = 'Increase'
+        ShortCut = 8304
+        OnClick = MenuIncreaseBorderClick
+      end
+      object MenuDecreaseBorder: TMenuItem
+        Caption = 'Decrease'
+        ShortCut = 8305
+        OnClick = MenuDecreaseBorderClick
+      end
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'About'
+      OnClick = MenuItem3Click
+    end
+    object N2: TMenuItem
+      Caption = '-'
+    end
+    object MenuItem1: TMenuItem
+      Caption = 'Exit'
+      OnClick = MenuItem1Click
+    end
+  end
+  object ColorDialog: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    left = 136
+    top = 52
+  end
+end
