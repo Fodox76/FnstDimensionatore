@@ -5,4 +5,4 @@ So simple as so useful, i.e. for web design :-)
 Developed with Lazarus.
 
 # Download
-Last version can be downloaded from here.
+Last version can be downloaded from **\output** folder or directly [from here](/output/fnstdimensionatore.exe).
