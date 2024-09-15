@@ -28,8 +28,8 @@ object FormCredits: TFormCredits
     Left = 8
     Height = 15
     Top = 26
-    Width = 143
-    Caption = 'Version 1.0.0.0 - 11/09/2024'
+    Width = 134
+    Caption = 'Version 1.0.0 - 11/09/2024'
     ParentColor = False
   end
   object Label5: TLabel
