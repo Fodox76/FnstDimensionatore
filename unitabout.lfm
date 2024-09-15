@@ -1,11 +1,11 @@
 object FormCredits: TFormCredits
   Left = 599
-  Height = 164
+  Height = 142
   Top = 465
   Width = 272
   BorderStyle = bsDialog
   Caption = 'About'
-  ClientHeight = 164
+  ClientHeight = 142
   ClientWidth = 272
   LCLVersion = '3.4.0.0'
   object Label1: TLabel

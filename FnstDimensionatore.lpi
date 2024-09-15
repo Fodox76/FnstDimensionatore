@@ -15,8 +15,10 @@
     </General>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="1"/>
-      <StringTable CompanyName="Fodox" FileDescription="FnstDimensionatore" InternalName="FnstDimensionatore" LegalCopyright="Fodox" ProductVersion="1.0.0.0 build 11/09/2024"/>
+      <BuildNr Value="1"/>
+      <StringTable CompanyName="Fodox" FileDescription="FnstDimensionatore" InternalName="FnstDimensionatore" LegalCopyright="Fodox" ProductVersion="1.0.0 build 11/09/2024"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
