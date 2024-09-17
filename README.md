@@ -4,5 +4,7 @@ So simple as so useful, i.e. for web design :-)
 
 Developed with Lazarus.
 
+![Screenshot of FnstDimensionatore with right click menu opened](fnstdimensionatore.png)
+
 # Download
 Last version can be downloaded from **\output** folder or directly [from here](/output/FnstDimensionatore.exe).
