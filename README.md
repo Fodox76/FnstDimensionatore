@@ -8,3 +8,10 @@ Developed with Lazarus.
 
 # Download
 Last version can be downloaded from **\output** folder or directly [from here](/output/FnstDimensionatore.exe).
+
+# Donation
+If you like my work, please consider making a donation to reward me. I'm a simple developer, and I enjoy simple things: a coffee, a beer, or a pizza... or any amount you feel is right. Thank you in advance!
+
+[![Paypal donation](https://www.paypalobjects.com/en_US/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=8Y9M67QHC9DLS)
+
+
