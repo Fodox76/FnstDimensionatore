@@ -7,7 +7,7 @@ Developed with Lazarus.
 ![Screenshot of FnstDimensionatore with right click menu opened](fnstdimensionatore.png)
 
 # Download
-Last release version is v1.0.0 and can be downloaded directly from [from here](https://github.com/Fodox76/FnstDimensionatore/releases/latest/download/FnstDimensionatore.exe).
+Latest release version is v1.0.0 and can be downloaded directly from [from here](https://github.com/Fodox76/FnstDimensionatore/releases/latest/download/FnstDimensionatore.exe).
 There's no installation but only the executable, so download it in any folder and run.
 
 # Donation
